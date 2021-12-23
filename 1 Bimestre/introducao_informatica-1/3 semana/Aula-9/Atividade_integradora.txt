@@ -1,0 +1,72 @@
+Vamos construir 9 computadores de 3 níveis diferentes (alto, médio e baixo) onde teremos que determinar os componentes compatíveis para cada um.
+
+Baixo custo - Intel
+Processador : core i3 7100
+Placa mãe : Placa Mãe 1151 H110 Ddr3 i3 - 7 Geração
+Memória Principal : RAM DDR3 4 GB
+Memória Secundária : HDD 500 GB
+
+Baixo custo - AMD
+Processador : Ryzen 3 2200g
+Placa mãe : PLACA MÃE BIOSTAR A320MH AMD AM4 MATX DDR4
+Memória Principal : RAM DDR4 4 GB
+Memória Secundária : HDD 500 GB
+
+Baixo custo - MINHA ESCOLHA
+Processador : Ryzen 3 2200g
+Placa mãe : PLACA MÃE BIOSTAR A320MH AMD AM4 MATX DDR4
+Memória Principal : 2 X RAM DDR4 4 GB
+Memória Secundária : SSD 240 GB
+
+_________________________________-----------------------____________________________________
+
+Custo Médio - Intel
+Processador : Core i5 8400
+Placa mãe : Gigabyte H310M-S2H
+Memória Principal :  RAM DDR4 8 GB
+Memória Secundária : SSD 240 GB
+GPU : GeForce GT 1030 2GD4 LP OC
+
+Custo Médio - AMD
+Processador :  Ryzen 3 2200g
+Placa mãe : A320M Asrock
+Memória Principal : 2x  RAM DDR4 4 GB
+Memória Secundária : SSD 500 GB
+GPU : Rx570
+
+Custo Médio - MINHA ESCOLHA
+Processador :  Ryzen 3 2200g
+Placa mãe : A320M Asrock
+Memória Principal : 2x  RAM DDR4 4 GB
+Memória Secundária : SSD 500 GB
+GPU : GTX 1060
+
+________________________________-----------------------_____________________________________
+
+Alto custo - Intel
+Processador :  Core i7-10700
+Placa mãe : Placa-mãe Asus p/Intel 1200 B460M-Plus TUF Gaming 4xDDR mATX 90MB1450-C1BAY0
+Memória Principal : 2x  RAM DDR4 8 GB
+Memória Secundária : SSD 1 TB
+GPU : GTX 3060
+
+Alto custo - AMD
+Processador :  Amd Ryzen 7 3800xt
+Placa mãe : Amd Ryzen 7 3800xt
+Memória Principal : 2x  RAM DDR4 8 GB
+Memória Secundária : SSD 1 TB
+GPU : Nvidia GeForce RTX 2080 Super
+
+Alto custo - MINHA EESCOLHA
+Processador :  Amd Ryzen 7 3800xt
+Placa mãe : Amd Ryzen 7 3800xt
+Memória Principal : 2x  RAM DDR4 8 GB
+Memória Secundária : SSD 1 TB
+GPU : Nvidia GeForce RTX 2080 Super
+
+
+
+
+
+
+
