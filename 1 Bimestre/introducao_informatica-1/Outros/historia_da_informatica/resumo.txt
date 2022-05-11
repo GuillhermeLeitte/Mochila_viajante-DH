@@ -1,0 +1,7 @@
+O ponto de partida para o início da informática atual, foi em 1642 com a máquina La Pascaline do filósofo, matemático e físico francês Blaise Pascal, sendo a primeira calculadora mecânica capaz de realizar operações de adição e subtração. Foi construída com o objetivo de ajudar o pai de Pascal que era coletor de impostos, a realizar cálculos com mais rapidez e confiabilidade.
+
+O conceito de máquina programável foi idealizado entre 1834 e 1835 pelo cientista e engenheiro mecânico francês Charles Babbage, no qual foi projetado uma máquina analítica que utilizava somente partes mecânicas para realizar diversas tarefas programáveis, infelizmente o projeto saiu do papel na década de 1980 e para comemorar o bicentenário de Babbage, a máquina foi finalizada nos anos 2000.
+
+As máquinas não trabalham “sozinhas”, elas necessitam de instruções que os seres humanos projetam e programam para resolver problemas do cotidiano, com isso, o conceito de primeiro algoritmo foi desenvolvido pela matemática inglesa Ada Augusta King, Condessa de Lovelace ou conhecida como Ada Lovelace.
+
+Ada classificou alfabeticamente seus comentários de A até G. A máquina analítica foi reconhecida como o primeiro modelo de máquina programável e os comentários de Ada, como a primeira sequência de instruções ou algoritmo...

@@ -1,0 +1,1 @@
+Aprendemos sobre a utilização do gitbash para escrever em tela preta pelo terminal.
