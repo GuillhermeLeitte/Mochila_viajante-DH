@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {background-color:#131313;}
+
+.media-picture {
+background-image:url("./imagens/critica-liga-da-justica-snydercut-2021-03.jpg");
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+background-size: 100%;
+
+}
+
+.review-score {
+background: #e6bd09;
+color: white;
+padding:12px;
+
+}
+
+.titulo {
+color: white;
+font-family: Roboto;
+
+
+}
+
+.h2 {
+color: steelblue;
+
+}
+
+.paragrafo{
+color:#bdbdbd;
+font-family: Roboto;
+
+}
+
+.a {
+color:yellow;
+
+}

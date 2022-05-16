@@ -1,0 +1,46 @@
+
+.lista {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px auto;
+    max-width: 320px;
+}
+
+.item {
+    border: 5px solid lightgray;
+    padding: 10px;
+
+
+    display: grid;
+    /* Quantidade de colunas */
+    grid-template-columns: 50px 1fr;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.item__avatar {
+    border-radius: 100%;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+}
+
+.item__corpo {
+    color: gray;
+}
+
+.item__titulo {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.item__descricao {
+    font-size: .7rem;
+    margin: 0;
+
+}

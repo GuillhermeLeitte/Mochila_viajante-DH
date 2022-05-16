@@ -1,0 +1,399 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #5d666c;
+}
+
+::-webkit-scrollbar-thumb {
+   
+    background-color:  rgba(87,100,108,1);
+    border-radius: 12px;
+
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a2b8c6;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.nav {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+}
+
+.logo-nav {
+    margin: 15px 60px;
+}
+
+.links-nav {
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+    padding: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    
+
+    text-align: center;
+
+    color: #626262;
+}
+
+.banner {
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+    background-image: url("./imagens/imagem-principal.png");
+    background-size: 100%;
+
+   
+    
+}
+
+.banner-itens {
+    position: absolute;
+    margin: auto;
+   
+    width: 800px;
+    height: 200px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    
+
+
+    
+}
+
+.texto-banner {
+    
+    width: 780px;
+    height: 84px;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 84px;
+
+    color: #E51B3E;
+
+
+}
+
+.paragrafo-banner {
+    
+    width: 780px;
+    height: 28px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.botao {
+   
+    margin:20px auto;
+    display: block;
+
+    width: 250px;
+    height: 50px;
+   
+    background: rgba(51, 187, 105, 0.05);
+    border: 1px solid #33BB69;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #FFFFFF;
+
+}
+
+#titulo-itens {
+    width:100px;
+    height:50px;
+    
+    display: block;
+    margin: 30px auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 75px;
+   
+    color: #000000;
+}
+
+.filmes {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    gap: 20px;
+
+    
+}
+
+.filme-1{
+    background-image: url(./imagens/coringa.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 407px;
+    height: 512px;
+   
+
+    
+    border-radius: 12px;
+    
+}
+
+.filme-2 {
+    background-image: url(./imagens/after.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 407px;
+    height: 512px;
+   
+
+    
+    border-radius: 12px;
+    
+}
+
+.filme-3 {
+    background-image: url(./imagens/marvel.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 407px;
+    height: 512px;
+   
+
+    
+    border-radius: 12px;
+    
+}
+
+.filme-4 {
+    background-image: url(./imagens/1917.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 407px;
+    height: 512px;
+   
+
+    
+    border-radius: 12px;
+    
+}
+
+.filme-5 {
+    background-image: url(./imagens/dora.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 407px;
+    height: 512px;
+   
+
+    
+    border-radius: 12px;
+    
+}
+
+.filme-6 {
+    background-image: url(./imagens/thor.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 407px;
+    height: 512px;
+   
+
+    
+    border-radius: 12px;
+    
+}
+
+.card-filme {
+    position: absolute;
+    width: 407px;
+    height: 271px;
+    left: 0px;
+    top: 242px;
+    padding: 20px;
+    background: #F4F4F4;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.titulo-card {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.descricao-card {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.botao-card-filmes {
+    display: block;
+    margin: 130px auto;
+    width: 342px;
+    height: 30px;
+    
+
+    background: #33BB69;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.botao-card-filmes:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.rodape {
+    width: 100vw;
+    height: 200px;
+    margin-top: 40px;
+    
+    background: #171717;
+}
+
+
+.nomes-rodape {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 30px;
+    color: #FFFFFF;
+
+}
+
+.primeiro-aluno {
+   text-align: start;
+   
+   
+   
+}
+
+.segundo-aluno {
+    text-align: center;
+     
+}
+
+.terceiro-aluno {
+    text-align: end;
+     
+}
+
+.nome-rodape {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+.paragrafo-rodape {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    
+
+    color: rgba(255, 255, 255, 0.75);
+
+}
+
+.icones {
+    width: 20px;
+    height: 20px;
+    margin:3px 0;
+   
+}
+
+.checkpoint {
+    
+    width: 386px;
+    height: 28px;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 28px;
+
+    color: rgba(255, 255, 255, 0.5);
+    margin:  auto;
+    text-align: center;
+}
+
+
+
+
+
+
+

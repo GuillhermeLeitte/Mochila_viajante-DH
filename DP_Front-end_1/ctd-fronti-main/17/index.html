@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 17 - Formulário 2/2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="conteudo">
+        <h1 class="conteudo__titulo">Pesquisa de opinião</h1>
+
+        <p>* Campos obrigatório</p>
+
+        <form 
+            class="formulario" 
+            method="get" 
+            action="https://api.sistema.com/cadastrar"
+        >
+
+            <fieldset class="formulario__fieldset">
+                <legend class="formulario__legend">Identificação*</legend>
+
+                <div class="formulario__grupo">
+                    <label class="formulario__rotulo" for="nome">Nome completo</label>
+                    <input class="formulario__campo" type="text" name="nome" placeholder="Digite seu nome completo">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Gênero</legend>
+                <div>
+                    <input type="radio" name="genero" value="0">
+                    <label for="genero">Masculino</label>
+                </div>
+    
+                <div>
+                    <input type="radio" name="genero" value="1">
+                    <label for="genero">Feminino</label>
+                </div>
+    
+                <div>
+                    <input type="radio" name="genero" value="2">
+                    <label for="genero">Prefiro não informar</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Plataformas de stream</legend>
+
+                <div>
+                    <input type="checkbox" name="stream" value="0">
+                    <label for="stream">Netflix</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="stream" value="1">
+                    <label for="stream">Amazon Prime</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="stream" value="2">
+                    <label for="stream">HBO</label>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Carros de preferência</legend>
+
+                <select name="stream" id="">
+                    
+                    <optgroup label="Ferrari">
+                        <option value="0">458 Spider</option>
+                        <option value="1">F12 Berlitta</option>
+                    </optgroup>
+
+                    <optgroup label="Porshe">
+                        <option value="2">Macan</option>
+                        <option value="2">918 Spyder</option>
+                    </optgroup>
+
+                    <option selected disabled>Escolha um veículo</option>
+
+                </select>
+
+
+
+            </fieldset>
+
+            <div class="formulario__grupo">
+                <button class="botao" type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

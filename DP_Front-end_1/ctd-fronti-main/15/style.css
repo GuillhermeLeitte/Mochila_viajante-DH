@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao {
+    background-color: rgb(255, 140, 0);
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+/*
+    Pseudoelementos
+*/
+
+/*
+    :hover - Ao passar o mouse sobre o elemento.
+*/
+.botao:hover {
+    background-color: rgb(210, 105, 30);
+}
+
+/*
+    :active - Ao pressionar o clique no elemento.
+*/
+.botao:active {
+    background-color: rgb(210, 30, 141);
+}
+
+/*
+    :visited - Quando o link já foi visitado.
+*/
+.botao:visited {
+    background-color: rgb(45, 210, 30);
+}
+
+.campo {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.campo:focus {
+    background-color: rgb(255, 69, 0);
+    color: white;
+}
+
+.campo:focus::placeholder {
+    color: white;
+}
+
+.campo:invalid {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.conteudo {
+    background-color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 480px;
+    padding: 25px;
+    text-align: center;
+}
+
+/*
+    Pseudoelementos
+*/
+
+/*
+    ::before - Antes do conteúdo dentro do elemento.
+*/
+.conteudo::before {
+    background-color: rgb(165, 42, 42);
+    border-radius: 5px;
+    content: '::before'; /* Posso inserir um conteúdo com esse atributo */
+    color: white;
+    display: block;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+/*
+    ::after - Depois do conteúdo dentro do elemento.
+*/
+.conteudo::after {
+    background-color: rgb(165, 42, 42);
+    border-radius: 5px;
+    content: '::after'; /* Posso inserir um conteúdo com esse atributo */
+    color: white;
+    display: block;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.paragrafo {
+    font-size: 24px;
+}
+
+
+/*
+    ::first-letter - Seleciona a primeira letra do texto.
+*/
+.paragrafo::first-letter {
+    color: rgb(255, 69, 0);
+    font-weight: 900;
+}
+
+/*
+    ::first-line - Seleciona a primeira linha antes da quebra <br>.
+*/
+.paragrafo::first-line {
+    color: rgb(128, 0, 128);
+    font-weight: 900;
+}
+
+.lista {
+    margin: 25px 0;
+    padding: 0;
+}
+
+.lista__item {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.lista__item:nth-child(2) {
+    background-color: rgb(0, 128, 0);
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+
+.lista__item:nth-last-child(3) {
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}

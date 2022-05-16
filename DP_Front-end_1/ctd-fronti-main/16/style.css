@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 25px 25px;
+    margin: 100px auto;
+    max-width: 480px;
+}
+
+.conteudo__titulo {
+    font-size: 32px;
+}
+
+.formulario {
+    margin: 50px 0 0;
+}
+
+.formulario__grupo {
+    margin: 20px 0;
+}
+
+.formulario__rotulo {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.formulario__campo {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.botao {
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 25px;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+/* Experiência em celular primeiro - Mobile first */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navegacao {
+    padding: 25px;
+    text-align: center;
+}
+
+.cabecalho {
+    width: 100%;
+}
+
+.cabecalho__imagem {
+    width: 100%;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.conteudo__titulo {
+    background-color: #BE9B62;
+    display: inline-block; /* Será abordado em aulas futuras... */
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+}
+
+.conteudo__corpo {
+    font-size: 18px;
+    line-height: 1.8em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+/* Experiência no desktop */
+
+/* Experiência em outros dispositivos - Exemplo: Impressora */

@@ -1,0 +1,49 @@
+
+
+.lista {
+    /* Cores */
+    background-color: gray;
+
+    /* Dimensão */
+    /* é = width */
+    /* a partir de = min-width */
+    /* até = max-width */
+    max-width: 780px;
+
+}
+
+.item {
+
+    /* Texto */
+    font-family: 'Inspiration', cursive, Arial, Helvetica, sans-serif;
+
+    /* 
+        Configuração da interpretação
+        do modelo de caixa... 
+    */
+    box-sizing: border-box;
+
+    /* Cores */
+    background-color: orangered;
+
+    /* Borda */
+    border-radius: 5px;
+
+    /* Espaçamento externo */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    /* Espaçamento interno */
+    padding: 10px;
+
+    /* Texto */
+    text-align: center;
+
+    /* Dimensão */
+    width: calc(25% - 10px);
+
+    /* Empilhamento */
+    float: left;
+}

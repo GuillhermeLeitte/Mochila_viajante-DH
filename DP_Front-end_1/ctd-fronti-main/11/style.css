@@ -1,0 +1,48 @@
+
+.lista {
+
+    margin: auto;
+
+    /* Cores */
+    background-color: lightgray;
+
+    /* Bordar */
+    border-radius: 10px;
+
+    /* Dimensões */
+    max-width: 780px;
+    min-height: 780px;
+
+    /* 
+        Caixas flexíveis 
+        Conteúdo da aula hoje...
+    */
+    display: flex;
+    gap: 50px; /* Espaçamento tentre os elementos */
+    flex-direction: column; /* Direção da distribuição dos elementos */
+    justify-content: center; /* Distribui o elemento na vertical e na horizontal */ 
+    align-items: center; /* Distribui os elementos na vertical e na horizontal */
+}
+
+.lista__item {
+
+    /* Cores */
+    background-color: yellowgreen;
+    color: white;
+
+    /* Bordar */
+    border-radius: 10px;
+
+    /* Texto */
+    font-family: Arial Black, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+    /* Espaçamento externo */
+    padding: 10px;
+
+    /* Dimensão */
+
+    height: 60px;
+    
+}

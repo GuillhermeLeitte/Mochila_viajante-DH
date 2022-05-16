@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa de trabalho</title>
+    <style type="text/css">
+        /* 
+
+            Adicione o código fonte dos estilos aqui. 
+
+            Core(s): 
+            - #ff8c40 - Laranja
+            - #ffdf00 - Amarelo
+            - #f4c732 - Dourado
+            - #0389ca - Azul
+            - #ffffff - Branco
+
+            Fonte(s):
+            - Padrão do sistema: Arial, sans-serif.
+
+        */
+        body {
+            background-color: #ffdf00;
+            font-family:arial, sans-serif;
+
+        }
+
+        .principal {
+            box-sizing: border-box;
+            margin: 50px 50px;
+            padding: 20px;
+            border-radius: 100px;
+            background-color: #ffffff;
+            min-height: 500px;
+            
+            
+            
+        }
+
+        .comoInstalar {
+            display: flex;
+            gap: 20px;
+            color: #ff8c40;
+            align-items: center;
+            margin: 30px;
+            padding-left: 238px;
+            
+        }
+
+        .comoInstalar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            background-color: #ff8c40;
+
+        }
+
+        .itens {
+            display: flex;
+            gap: 30px;
+            justify-content:center;
+            position: relative;
+            
+        }
+
+        
+
+        .texto-item {
+            position: absolute;
+            bottom: 30px;
+            max-width: 225px;
+            max-height: 40px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        
+       
+        .numero {
+            width:50px;
+            height:50px;
+            color: #ffff;
+            box-sizing: border-box;
+            font-size: 25px;
+            font-weight: 600;
+            font-family: arial, sans-serif;
+            padding-top: 12px;
+            background-color:#ff8c40;
+            text-align: center;
+            border-radius: 100%;
+            position: absolute;
+            top: -25px;
+            margin: 0 88px;
+            
+        }
+
+        .botaoVideo {
+            display: flex;
+            color: #ffff;
+            background-color:#ff8c40;
+            max-width: 250px;
+            max-height: 50px;
+            box-sizing: border-box;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            justify-content: center;
+            border-radius: 30px;
+            position: absolute;
+            bottom: 150px;
+            right: 700px;
+        }
+
+        .bordar-baixo {
+            width: 1169.6px;
+            
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border-bottom: solid 2px;
+            border-color: #0389ca;
+            border-radius: 100%;
+            position: absolute;
+            bottom: 170px;
+            right:2px;
+        }
+       
+
+        
+        
+    </style>
+</head>
+<body>
+<!--
+
+    Checklist da atividade da Mesa de trabalho.
+    (  ) Refatore (re-escreva) o código fonte da estrutura HTML, considerando a semântica do código HTML.
+    (  ) Nomeie os elementos considerando os fundamentos do método BEM (Bloco, Elemento, Modificador).
+    (  ) Com base na imagem cedida pelo professor, localizada na pasta ./imagens, personalize os elementos a seguir.
+    (  ) Botão de acesso ao vídeo deve mudar de cor quando o mouse ser posicionado sobre ele.
+    (  ) Os ícones 'Sinal de Interrogação' e 'Play de vídeo' devem ser adicionado com CSS, utilizando pseudo-elementos.
+
+    Nota: Observe a necessidade de se trabalhar com pseudo-classes e pseudo-elementos no projeto e aplique quando necessário.
+
+    Data desenvolvimento da atividade: 23/11/21
+    Última alteração: -
+
+-->
+    
+    <div class="principal">
+        <header>
+            <div class="comoInstalar">
+                <img src="./imagens/icone-interogacao.png">
+                <h1>
+                    Como instalar?
+                </h1> 
+            
+            </div>
+        </header>
+
+        <article>
+            <div class="itens">
+                
+                <div class="item1">
+                    <img class="card" src="./imagens/miniatura.png" alt="Miniatura da primeira etapa">
+                    <div class="numero">1</div>
+                    <div class="texto-item">Navegue até o app.oestecarioca.org</div>
+                </div>
+                <div class="item2">
+                    <img src="./imagens/miniatura.png" alt="Miniatura da segunda etapa">
+                    <div class="numero">2</div>
+                    <div class="texto-item">Clique no botão Menu</div>
+                </div>
+                <div class="item3">
+                    <img src="./imagens/miniatura.png" alt="Miniatura da terçeira etapa">
+                    <div class="numero">3</div>
+                    <div class="texto-item">Selecione a opção Adicionar Tela Principal</div>
+                </div>
+            </div>
+            
+        </article>
+
+        <section>
+            <div class="bordar-baixo">
+                
+            </div>
+        </section>
+
+        <aside>
+            <div class="botaoVideo">
+                <img src="./imagens/icone-play.png">
+                <p>Assista ao video</p>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>
