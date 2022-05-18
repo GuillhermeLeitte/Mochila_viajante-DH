@@ -106,5 +106,6 @@ function brigadeiro(tempoBrigadeiro){
 };
 
 // Para chamar a função utiliza o nome do prato e após coloca o tempo
-console.log(pipoca(20));
+console.log(pipoca(13));
+
 
