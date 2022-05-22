@@ -1,3 +1,19 @@
+/* function repeticao (info,qtd){
+     return info.repeat (qtd);
+ }
+ 
+
+ console.log(repeticao("Guiilherme ", 5)); */
+
+ /* function sub ( a=0, b=0){
+     return a-b;
+ }
+ 
+ console.log(sub(1,3)); */
+
+ 
+ 
+ 
  //Função para transformar Polegadas em Centímetros
 
 /* function PolCent (polegadas) {
