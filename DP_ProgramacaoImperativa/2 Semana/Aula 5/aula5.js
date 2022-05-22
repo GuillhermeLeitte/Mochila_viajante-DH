@@ -11,9 +11,43 @@
  
  console.log(sub(1,3)); */
 
+ /* console.log('string '+ 8);
+ console.log(`string ${8}`);
+  */
  
+ /* function soma (a , b){
+     return a + b;
+ }
  
- 
+ function divideSoma (a, b){
+     return a / b;
+ }
+
+ console.log(divideSoma(soma(3,7),10 )); */
+
+/* function soma (a,b,c){
+    return a + b+ c
+}
+
+console.log(soma(5,5));
+
+function soma1 (a,b,c=0){
+    return a + b+ c
+}
+
+console.log(soma1(5,5)); */
+
+/* console.log("String"==="String"); */
+
+
+
+
+
+
+
+
+
+
  //Função para transformar Polegadas em Centímetros
 
 /* function PolCent (polegadas) {
