@@ -25,12 +25,21 @@ console.log(nomes[2]) */
 
 /* let grupoDeAmigos = [ ["Harry", "Ron", "Hermione"], ["Spiderman", "Hulk", "Ironman"], ["Penélope Glamour", "Pierre Nodoyuna","Patán"] ]
 console.log(grupoDeAmigos[1][0]) */
+var z=0;
 
+for (var i=20; i<50; i+=10){
+    z+=i;
+}
+console.log(z)
 
+/* let frutasAmarelas=["Melão","Mamão","Limão"]
+let [fruta1, fruta2, fruta3,]= frutasAmarelas;
 
-
-
-
+console.log(fruta1)
+console.log(fruta2)
+console.log(fruta3)
+console.log(frutasAmarelas)
+ */
 
 
 
