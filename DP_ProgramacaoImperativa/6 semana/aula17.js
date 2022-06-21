@@ -1,4 +1,4 @@
-const valores = [1,2,3,4,5,6,7,8,9];
+// const valores = [1,2,3,4,5,6,7,8,9];
 
 // console.log( valores [0]);
 
@@ -29,5 +29,6 @@ console.log( valores ) */
 /* valores.forEach(function(element){
     console.log(element+" * 2 = "+ element*2)
 }); */
+
 
 
