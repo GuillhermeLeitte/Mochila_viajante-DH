@@ -50,35 +50,49 @@ console.log(soma1(5,5)); */
 
  //Função para transformar Polegadas em Centímetros
 
-/* function PolCent (polegadas) {
+function PolCent (polegadas) {
     return polegadas * 2.54
 }
 
-console.log(PolCent(2)); */
+console.log(PolCent(2));
 
 // Função para receber uma string e converter em URL
 
-/* function url (palavra) {
+function url (palavra) {
     return "www." + palavra + ".com.br"
 }
 
-console.log(url('digitalhouse')); */
+console.log(url('digitalhouse'));
 
 // Função que receba a mesma palavra mais acrescente um (!) ao final
 
-/* function exclamacao (frase) {
+function exclamacao (frase) {
     return frase + "!"
 }
 
 console.log(exclamacao("Isso é uma função em execução"));
- */
 
-// Função que calcula a idade de um cachorro levando em consideração 7anos humanos para 1 de cachorro
 
-/* function idadeCao (idadeCachorro) {
+// Função que calcula a idade de um cachorro levando em consideração 7 anos humanos para 1 de cachorro
+
+function idadeCao (idadeCachorro) {
     return idadeCachorro * 7 + " idade humana"
 }
 
-console.log(idadeCao(2)); */
+console.log(idadeCao(2));
 
-// Crie uma função que calcule a 
+// Crie uma função que calcule o valor da sua hora de trabalho, tendo como parâmetro o seu salário mensal.
+// PS: considere que você trabalhe 160 horas no mês
+
+function salarioHr (salario){
+    return salario / 160
+}
+
+console.log(salarioHr(2000))
+
+// Crie a função calculadora de IMC* de uma pessoa, que recebe a altura em centímetros e o peso em quilogramas. Em seguida, execute a função, testando diferentes valores. 
+// *IMC, significa Índice de Massa Corporal e é um parâmetro utilizado para saber se o peso está de acordo com a altura.
+
+function IMC (altura, peso){
+    return altura / peso
+}
