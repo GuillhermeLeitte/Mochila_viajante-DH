@@ -96,3 +96,6 @@ console.log(salarioHr(2000))
 function IMC (altura, peso){
     return altura / peso
 }
+
+// Crie uma função que receba uma string em minúsculas, converta-a em maiúsculas e as retorne. 
+// Investigue o que o método de .toUpperCase() faz.
