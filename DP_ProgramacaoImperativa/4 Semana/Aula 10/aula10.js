@@ -8,6 +8,9 @@
 // o espaço também é contado 
 // ex 1,2,' '.
 
+// let saudacao = "Olá! Estamos programando"
+// console.log(saudacao.indexOf("Estamos"))
+
 // Mesa de trabalho : 
 //A. Acessar elementos específicos de um array
 
