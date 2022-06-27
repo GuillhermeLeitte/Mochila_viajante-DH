@@ -86,6 +86,45 @@ nomes[1] -= 5;
 
 console.log(nomes); //ao tentar somar um nome com um texto, retorna NaN (como esperado)
 
+// Uso do .slice, para fazer cortes
+let nome = 'Marcos é top'
+console.log(nome.slice(6,12))
+
+// Uso do .trim, para eliminar os espaços no inicio e no fim da string
+nome = '  Marcos é top  '
+console.log(nome.trim())
+
+// Uso do .split, para transformar uma string em array
+nome = nome.trim()
+console.log(nome.split(" "))
+
+//Uso do .replace, para substituir uma parte da String por outra
+nome = "Marcos é top"
+nome = nome.replace("Marcos", "Guilherme")
+console.log(nome)
+
+// Uso do metodo array .pop()
+console.log(nomes)
+nomes.pop()
+console.log(nomes)
+
+
+
+// Uso do metodo array .join
+console.log(nomes)
+console.log(nomes.join())// console.log(nomes)// Ele não modifica o Array
+
+// Uso do método .includes(), para verificar se tem ou não o que estou procurando.
+console.log(nomes.includes("Gui"))
+
+
+
+
+
+
+
+
+
 
 
 
