@@ -45,3 +45,5 @@ const num = [1, 2, 3, 4, 5, 6];
 // } // caso não me importe com o valor de outros parâmetros, substituir por "_" (i.e.: paraCadaElemento(_, _, fullArray))
 
 // num.forEach(paraCadaElemento); //executa esta função N vezes, sendo N = .length
+
+
