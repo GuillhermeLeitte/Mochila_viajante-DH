@@ -14,50 +14,67 @@
 // Mesa de trabalho : 
 //A. Acessar elementos específicos de um array
 
-/* let nomes = ['Guilherme', 'Francisco', 'João']
-let sobrenome = ['Leite', 'João', 'Vieira'] */
+const nomes1 = ['Guilherme', 'Francisco', 'João']
+const sobrenome = ['Leite', 'João', 'Vieira']
 
-/* console.log(nomes.length)
-console.log(nomes[2]) */
+console.log(nomes1.length)
+console.log(nomes1[2])
 
 // B. Modificar cada um dos elementos de um array e imprimi-los no console
+nomes1[1] = "Alterado"
+console.log(nomes1)
+
+sobrenome[0] = "Demais"
+console.log(sobrenome)
+
+console.log(nomes1[1] + " " + sobrenome[0])
 
 // C. Adicionar elementos a um array.
+
+nomes1.push("Adicionado")
+sobrenome.push("Mais um")
+console.log(nomes1.length, sobrenome.length)
+console.log(nomes1[3]+" "+sobrenome[3])
+
 // D. Extrair elementos de um array.
+
+nomes1.pop()
+sobrenome.pop()
+console.log(nomes1.length, sobrenome.length)
+console.log(nomes1, sobrenome)
+
 // E. Comparar elementos de um array com os elementos de outro.
 
-/* let grupoDeAmigos = [ ["Harry", "Ron", "Hermione"], ["Spiderman", "Hulk", "Ironman"], ["Penélope Glamour", "Pierre Nodoyuna","Patán"] ]
-console.log(grupoDeAmigos[1][0]) */
-// var z=0;
+if ((nomes1[0]) == (sobrenome[0])){
+    console.log(`O ${nomes1[0]} é igual o ${sobrenome[0]}`)
+}
 
-// for (var i=20; i<50; i+=10){
-//     z+=i;
-// }
-// console.log(z)
+if((nomes1[1]) == (sobrenome[1])){
+    console.log(`O ${nomes1[1]} é igual o ${sobrenome[1]}`)
 
-/* let frutasAmarelas=["Melão","Mamão","Limão"]
-let [fruta1, fruta2, fruta3,]= frutasAmarelas;
+}
 
-console.log(fruta1)
-console.log(fruta2)
-console.log(fruta3)
-console.log(frutasAmarelas)
- */
+if((nomes1[2]) == (sobrenome[1])){
+    console.log(`O ${nomes1[2]} é igual o ${sobrenome[1]}`)
 
-// const notas = [7.8, 6.7, 10, 9.5, 7.8, 5.8];
+} else {
+    console.log("É diferente")
+}
 
-// console.log(notas);
-// console.log(notas[3], notas[2]); // é assim que se acessa elementos específicos do array
-// console.log(notas[6]);
-// console.log(notas[0]);
+const notas = [7.8, 6.7, 10, 9.5, 7.8, 5.8];
 
-// // alterando o valor de um elemento do array. (obs.: não é possível alterar a constante "notas", mas é possível alterar os valores dentro do array)
+console.log(notas);
+console.log(notas[3], notas[2]); // é assim que se acessa elementos específicos do array
+console.log(notas[6]);
+console.log(notas[0]);
 
-// notas[3] = 9.2;
+// alterando o valor de um elemento do array. (obs.: não é possível alterar a constante "notas", mas é possível alterar os valores dentro do array)
 
-// console.log(notas);
+notas[3] = 9.2;
 
-// //definir os elementos de uma array após a criação da array
+console.log(notas);
+
+//definir os elementos de uma array após a criação da array
 
 const nomes = [];
 
